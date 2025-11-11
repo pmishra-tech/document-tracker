@@ -465,7 +465,7 @@ export function UCMStatusTable() {
                           <Edit size={20} />
                         </button>
                         <button
-                          onClick={() => handleDelete(item.id!)}
+                          onClick={() => handleDelete(item.id)}
                           disabled={isAdding || editingId !== null}
                           className="text-red-600 hover:text-red-800 disabled:text-gray-400 disabled:cursor-not-allowed"
                           title="Delete"
